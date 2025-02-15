@@ -13,6 +13,10 @@ function Book(props) {
         console.log(`The title of this book is : ${titleParameter}`);
       };
 
+      const addSelectedBook = (titleParameter) => {
+        console.log(`My sister the serial killer : ${titleParameter}`);
+      }
+
       return (
       // without object destructuring
       // <div>

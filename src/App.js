@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   const [books, setBooks] = useState(data);
   const [keyword, setKeyword] = useState("");
+  const [newBook, setNewBook] = useState({title: "my sister the serial killer", author: "Oyinkan Braithwaite"});
+  const [trackbooks, setTrackbooks] = useState ("");
 
   const findBooks = async (value) => {
     const results = await fetch(

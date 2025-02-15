@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    max-width: 100%;
+    float: left;
+}
+.nav {
+    display: flex;
+    font-weight: bold;
+    flex-grow: 1;
+    
+}
